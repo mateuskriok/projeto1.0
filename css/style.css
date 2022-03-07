@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family:mateus1 ;
+    src: url(../fonts/1942.ttf);
+}
+@font-face {
+    font-family:robson ;
+    src: url(../fonts/mytype.ttf) ;
+}
+
+:root{
+    --cor0:#f0eded;
+    --cor1:#c2bfbf;
+    --cor2:#8a8787;
+    --cor3:#575555;
+    --cor4:#1f1e1e;
+    --font1:mateus1;
+    --font2:mateus2;
+}
+
+body{
+    background-color: #f0eded;
+}
+
+header{
+ 
+   padding: auto;
+    margin: auto;
+    border: 1px solid black;
+    background-image: url(../imagens/rosa.jpg);
+    
+    
+}
+
+.nath{
+    text-align: center;
+    position: relative;
+    bottom: 99px;
+    font-size:6em ;
+    font-family:var(--font1);
+}
+
+.logo-principal{
+    width: 20%;
+   
+    
+}
+
+nav  a{
+    text-decoration: none;
+    color: #d65b72;
+    font-family: mateus1;
+    font-size: 30px;
+    
+}
+nav li{
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    
+}
+nav a:hover{
+    background-color: #ebaab6;
+        transition-duration: 0.3s;
+        
+}
+
+main{
+    margin: 0px;
+    padding: 0px;
+    border: 3px solid #f5c7d0;
+}
+
+.trabalhos{
+    text-align: center;
+    text-indent:20px;
+    font-family:arial;
+    padding: 40px;
+    
+   
+}
+
+.trabalhos > h2{
+    font-family: var(--font1);
+    padding: 20px;
+    font-size: 2em;
+    
+}
+
+
+.trabalhos > p{
+    text-align: justify;
+}
+
+.fotos .foto1, .foto2, .foto3{
+    border: 3px solid black;
+}
+
+.foto1{
+    width: 36%;
+    margin: 0;
+}
+.foto3{
+    width: 30%;
+}
+.informacao{
+    text-align: center;
+    padding: 20px;
+    margin  2px;
+}
+
+.informacao > h2{
+    margin: 10px;
+    padding: 10px;
+    
+   
+}
+.infomacao > p{
+    text-align: justify;
+}
